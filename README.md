@@ -1,2 +1,2 @@
 # ShipTrackr
-Projeto de Automação usando Selenium 
+Projeto de Automação usando Selenium e Docker
