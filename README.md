@@ -20,8 +20,12 @@ iniciado, será necessario fazer as crações das tabelas, mas isso voce pode re
 
 O resultado esperado é essa mensagem: *CREATE TABLE - Query returned successfully in 50 msec* ou algo parecido.
 
+
+
 Feito tudo isso, agora seguiremos esses passos: 
 - Agora partimos para a pasta *Crawler*, onde vamos inserir os codigos de rastreamento dos Correios
 que queremos fazer o monitoramento dentro do arquivo *xlms*. Seguir como exemplo os codigos que deixei lá, apenas substituindo.
 - Após isso, no arquivo *Main.py* vamos atualizar as informações do banco de dados, tendo em vista que devem ser os
-mesmos usados na configuração do banco de dados, linhas: "
+mesmos usados na configuração do banco de dados, linhas dentro do arquivo Main.py: "137 a 140, 200 a 203, 221 a 224".
+- Concluindo esses passos, podemos contruir a imagem usando o terminal dentro da pasta Crawler dando o seguinte comando:
+    _docker build -t (nome da imagem) ._ 
