@@ -146,9 +146,9 @@ class EmailSender:
         rows = cursor.fetchall()
 
         # Configurar as informações de email
-        remetente = 'guilherme.enviar.email@gmail.com'
-        senha_remetente = 'zqfrwbqcelagcnkv'
-        destinatario = 'gui.anonimo.correia@gmail.com'
+        remetente = '' # escreva o email que vai enviar o email
+        senha_remetente = '' # escreva a senha gerada no email de "apps menos seguros (caso seja gmail)"
+        destinatario = '' # escreva o email que sera enviado as informações
         assunto = 'Imagens do Banco de Dados'
 
         # Configurar o email
