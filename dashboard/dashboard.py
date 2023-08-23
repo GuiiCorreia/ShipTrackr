@@ -57,9 +57,9 @@ class GraphGenerator:
 class EmailSender:
     def send_email_with_graph(self, graph_file):
         # Configurar as informações de email
-        remetente = 'guilherme.enviar.email@gmail.com'
-        senha_remetente = 'zqfrwbqcelagcnkv'
-        destinatario = 'gui.anonimo.correia@gmail.com'
+        remetente = '' # escreva o email que vai enviar o email
+        senha_remetente = '' # escreva a senha gerada no email de "apps menos seguros (caso seja gmail)"
+        destinatario = '' # escreva o email que sera enviado as informações
         assunto = 'Gráfico de Linha - Relação Código de Rastreamento x Última Atualização'
 
         # Configurar o email
